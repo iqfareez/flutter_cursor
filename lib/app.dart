@@ -28,7 +28,7 @@ class App extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.all(18),
             child: Linkify(
-              text: 'Source code: https://github.com/iqfareez/system_cursor',
+              text: 'Source code: https://github.com/iqfareez/flutter_cursor',
               textAlign: TextAlign.center,
               onOpen: (link) async {
                 await launchUrl(Uri.parse(link.url));
