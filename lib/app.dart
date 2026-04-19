@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_linkify/flutter_linkify.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-import 'cursors.dart';
+import 'views/cursors_page.dart';
 
 class App extends StatelessWidget {
   const App({Key? key}) : super(key: key);
@@ -24,7 +24,7 @@ class App extends StatelessWidget {
               style: TextStyle(fontSize: 18),
             ),
           ),
-          Cursors(),
+          CursorsPage(),
           Padding(
             padding: const EdgeInsets.all(18),
             child: Linkify(
